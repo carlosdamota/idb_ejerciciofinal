@@ -2,5 +2,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@300;400;600;700&display=swap');
 /* font-family: 'Libre Baskerville',
 serif;
-font-family: 'Montserrat',
-sans-serif; */
+ */
+:root {
+    --color-bgprimary: black;
+    --color-bgcolor: #1F2F1F;
+    --color-text: #C0C0C0;
+    --color-textred: red;
+}
+body {
+    font-family: 'Montserrat',
+            sans-serif;
+}
+.text--uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text--red{
+    color: var(--color-textred);
+}
+.header {
+    background-color: var(--color-bgprimary);
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+}
+.header__figure {
+    width: 4em;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.header__figure__logo {
+    width: 100%;
+}
+.header__hr {
+   margin: 1em;
+}
+.header__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav__link {
+    margin: 1em;
+    color: var(--color-text);
+    text-decoration: none;
+    font-weight: 600; 
+} 
+.main__header {
+    background-image: url(/images/intro-bg.jpg);
+    background-size: cover;
+}
+.header__text {
+    font-size: ;
+}
+.portfolio__image__img {
+    width: 100%;
+}
