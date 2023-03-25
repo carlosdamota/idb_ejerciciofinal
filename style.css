@@ -116,7 +116,7 @@ a {
     
 }
 .section {
-    
+    padding: 4em 2em;
 }
 .section--row {
     display: flex;
@@ -126,9 +126,9 @@ a {
     background-image: url(/images/profile-bg.jpg);
     background-size: cover;
     filter: opacity(0.2);
-    
-    
-    
+}
+.section__header {
+
 }
 .portfolio__image__img {
     width: 100%;
