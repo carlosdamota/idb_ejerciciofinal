@@ -5,8 +5,8 @@ serif;
  */
 :root {
     --color-bgprimary: black;
-    --color-bgcolor: #1F2F1F;
-    --color-text: #C0C0C0;
+    --color-bgsecondary: #2F2F2F;
+    --color-text: #2F4F4F;
     --color-textred: red;
 }
 body {
@@ -20,15 +20,46 @@ body {
 .text--red{
     color: var(--color-textred);
 }
+
 .header__title, .section__text, .article__text, .header__title--hero {
     font-family: 'Libre Baskerville',
             serif;
 }
-.header__title{
+.header__title {
     font-weight: 700;
     font-size: x-large;
     text-transform: capitalize;
-
+}
+.header__text {
+    font-weight: 700;
+    font-size: 90%;
+    line-height: 25px;
+}
+.section__header>p:last-child, .section__text, .article__text {
+    color: var(--color-text);
+}
+.article__title {
+    font-size: large;
+    font-weight: 900;
+}
+.article__subtitle {
+    font-weight: 800;
+    font-size: small;
+}
+.article__text {
+    font-size: 15px;
+}
+.text--time {
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Montserrat',
+            sans-serif;
+}
+p {
+    line-height: 25px;
+}
+a {
+    text-decoration: none;
 }
 .header {
     background-color: var(--color-bgprimary);
@@ -56,9 +87,11 @@ body {
 .nav__link {
     margin: 1em;
     color: var(--color-text);
-    text-decoration: none;
     font-weight: 600; 
 } 
+.nav__link:hover {
+    color: var(--color-bgsecondary);
+}
 .main__header {
     /* background-image: url(/images/intro-bg.jpg);
     background-size:cover; */
@@ -80,6 +113,21 @@ body {
 .header__title--hero {
     font-size: 2.5em;
     color: white;
+    
+}
+.section {
+    
+}
+.section--row {
+    display: flex;
+    flex-direction: column;
+}
+.section__about{
+    background-image: url(/images/profile-bg.jpg);
+    background-size: cover;
+    filter: opacity(0.2);
+    
+    
     
 }
 .portfolio__image__img {
