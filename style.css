@@ -12,6 +12,7 @@ serif;
 body {
     font-family: 'Montserrat',
             sans-serif;
+            font-size: 12px;
 }
 .text--uppercase {
     text-transform: uppercase;
@@ -29,11 +30,13 @@ body {
     font-weight: 700;
     font-size: x-large;
     text-transform: capitalize;
+    margin-bottom: 1em;
 }
 .header__text {
     font-weight: 700;
-    font-size: 90%;
-    line-height: 25px;
+    font-size: 100%;
+    line-height: 1.5em;
+    margin-bottom: 1em;
 }
 .section__header>p:last-child, .section__text, .article__text {
     color: var(--color-text);
@@ -47,7 +50,7 @@ body {
     font-size: small;
 }
 .article__text {
-    font-size: 15px;
+    font-size: 1em;
 }
 .text--time {
     font-size: small;
@@ -56,7 +59,8 @@ body {
             sans-serif;
 }
 p {
-    line-height: 25px;
+    line-height: 1.5em;
+    padding-bottom: 1em;
 }
 a {
     text-decoration: none;
@@ -101,19 +105,22 @@ a {
 .main__header__hero {
     background-image: url(/images/intro-bg.jpg);
         background-size: cover;
-        background-color: var(--color-textred);
-        padding: 3em 2em 3em 2em;
+        background-repeat: no-repeat;
+        padding: 4em 2em 4em 2em;
         line-height: 300%;
-        width: 100%;
+        position: relative;
 }
 .header__hero__text {
     color: rgba(255, 255, 255, 0.281);
     font-size: large;
 }
 .header__title--hero {
-    font-size: 2.5em;
+    font-size: 300%;
     color: white;
     
+}
+.main__header__arrow {
+    position: absolute;
 }
 .section {
     padding: 4em 2em;
@@ -125,10 +132,26 @@ a {
 .section__about{
     background-image: url(/images/profile-bg.jpg);
     background-size: cover;
-    filter: opacity(0.2);
+    position: relative;
 }
-.section__header {
-
+.section__header>.header__text, .header__title {
+    text-align: center;
+}
+.section__article--row { 
+    display: flex;
+}
+.section__article__icon {
+    margin-top: 0.5em;
+}
+.article__services {
+    margin-left: 2em;
+}
+.article__services--node {
+    margin-left: 1em;
+}
+.article__icon {
+    color: var(--color-textred);
+    font-size: ;
 }
 .portfolio__image__img {
     width: 100%;
