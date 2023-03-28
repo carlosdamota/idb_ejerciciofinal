@@ -149,26 +149,38 @@ a {
 .article__services--node {
     margin-left: 1em;
 }
+.section__skills {
+    background-image: url(/images/skills-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section__skills__text {
+    padding: 3em 3em 10em 3em;
+
+}
+
 .article__icon {
     color: var(--color-textred);
-    font-size: ;
 }
 .article__icon__credentials {
-    width: 9em;
+    width: 2.5em;
     height: 2.5em;
     background-color: var(--color-textred);
     border-radius: 50%;
+    text-align: center;
+    position: absolute;
 }
-.section__article {
+.section__article--border {
     border-left: solid 1px rgba(128, 128, 128, 0.205);
-    padding-left: 2em
+    padding-left: 2em;
+    position: relative;
+    translate: 1.2em;
 }
 .article__icon--experience {
     color: white;
-    
+    padding: 30% 25%;
 }
 .portfolio__image__img {
     width: 100%;
-    text-align: center;
     
 }
