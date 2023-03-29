@@ -146,12 +146,15 @@ serif;
     background-image: url(/images/profile-bg.jpg);
     background-size: cover;
 }
-footer {
+.footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: var(--color-bgprimary);
+    align-items: center;
+    justify-content: center;
 }
-footer__social {
+.footer__social {
     display: flex;
+    color: white;
 }
