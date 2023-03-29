@@ -1,0 +1,79 @@
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 12px;
+}
+
+.text--uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.text--red {
+    color: var(--color-textred);
+}
+
+.header__title,
+.section__text,
+.article__text,
+.header__title--hero {
+    font-family: 'Libre Baskerville',
+        serif;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+}
+
+.header__title--white {
+    color: white;
+    font-weight: 600;
+}
+
+.header__text {
+    font-weight: 700;
+    font-size: 100%;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.section__header>p:last-child,
+.section__text,
+.article__text {
+    color: var(--color-text);
+}
+
+.article__title {
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.article__subtitle {
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.article__text {
+    font-size: 1em;
+}
+
+.text--time {
+    font-size: 0.9em;
+    font-weight: bold;
+    font-family: 'Montserrat',
+        sans-serif;
+    padding-bottom: 0;
+}
+
+p {
+    line-height: 1.5em;
+    padding-bottom: 1em;
+}
+
+a {
+    text-decoration: none;
+}
