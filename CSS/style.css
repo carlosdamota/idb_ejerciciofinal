@@ -146,6 +146,16 @@ serif;
     background-image: url(/images/profile-bg.jpg);
     background-size: cover;
 }
+.section__form {
+    display: flex;
+    flex-direction: column;
+    margin: ;
+    justify-content: center;
+}
+.article__contact--raw {
+    display: flex;
+    margin-top: 3em;
+}
 .footer {
     display: flex;
     flex-direction: column;
@@ -156,5 +166,14 @@ serif;
 }
 .footer__social {
     display: flex;
-    color: white;
+    margin-top: 5%;
+}
+.social__icon {
+    color: var(--color-text);
+    margin-left: 0.5em;
+}
+.footer>p {
+    color: var(--color-text);
+    margin: 1em auto;
+
 }
