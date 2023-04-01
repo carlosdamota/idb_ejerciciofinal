@@ -79,3 +79,19 @@ p {
 a {
     text-decoration: none;
 }
+.form__label {
+    color: var(--color-text);
+    font-weight: 800;
+}
+.article__contact__text {
+    color: var(--color-text);
+    text-align: center;
+    line-height: 0.5em;
+    font-weight: 800;
+}
+.article__contact__title {
+    color: white;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
