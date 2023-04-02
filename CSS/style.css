@@ -18,14 +18,13 @@ serif;
 }
 .header__figure {
     width: 4em;
-    margin-top: 1em;
-    margin-left: 1em;
+    margin: 1em;
 }
 .header__figure__logo {
     width: 100%;
 }
 .header__hr {
-   margin: 1em;
+   margin: 0 1em;
 }
 .header__nav {
     display: flex;
@@ -51,7 +50,7 @@ serif;
 
 }
 .main__header__hero {
-  padding: 25% 5% 0% 5%;
+  padding: 15% 5% 15% 10%;
 }
 .header__hero__text {
     color: rgba(255, 255, 255, 0.281);
@@ -74,7 +73,7 @@ serif;
     color: white;
 }
 .section {
-    padding: 4em 2em;
+    padding: 4em 3em;
 }
 .section--row {
     display: flex;
@@ -83,14 +82,13 @@ serif;
 .section__about{
     background-image: url(/images/profile-bg.jpg);
     background-size: cover;
-    z-index: 0;
     padding: 0;
     background-position-x: center;
 }
 .section__header--about{
-    z-index: 1;
-    background-color: white;
-    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.897);
+
+    /* opacity: 0.8; */
     padding: 4em 2em;
     
 }
@@ -116,11 +114,14 @@ serif;
     padding: 0;
 }
 .section__skills__text {
-    background-color: black;
-    filter: opacity(0.7);
+    background-color: rgba(0, 0, 0, 0.863);
+    
     padding: 3em 3em 10em 3em;
 }
 
+.section__experience>:first-child {
+    margin-bottom: 2em;
+}
 
 .article__icon {
     color: var(--color-textred);
@@ -172,21 +173,33 @@ serif;
     width: 5em;
     border: solid 1px var(--color-text);
 }
-.section__contact {
+.section__contact--bgimage {
     background-image: url(/images/profile-bg.jpg);
     background-size: cover;
     background-position-x: center;
+}
+.section__contact {
+    background-color: rgba(0, 0, 0, 0.842);
 }
 .section__form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 80vw;
+    margin: 1em auto;
 }
 .form__input {
     background-color: transparent;
     border: none;
     border-bottom: 1px solid var(--color-text);
     margin-bottom: 1em;
+}
+.form__button {
+    border: none;
+    background-color: green;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .article__contact--raw {
     display: flex;
@@ -215,4 +228,22 @@ serif;
     color: var(--color-text);
     margin: 1em auto;
 
+}
+
+@media (min-width: 960px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .header__hr {
+        display: none;
+    }
+    .header__nav {
+        flex-direction: row;
+        margin-right: 2em;
+    }
+    .main__header {
+        height: 100vh;
+    }
+    
 }
