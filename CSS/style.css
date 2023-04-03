@@ -85,7 +85,7 @@ serif;
     padding: 0;
     background-position-x: center;
 }
-.section__header--about{
+.section__about--text{
     background-color: rgba(255, 255, 255, 0.897);
 
     /* opacity: 0.8; */
@@ -245,10 +245,6 @@ serif;
     .main__header {
         height: 100vh;
     }
-
-    .section__header>.header__text, .header__title {
-            text-align: left;
-        }
     .section--row {
         flex-direction: row;
     }
@@ -256,19 +252,29 @@ serif;
         width: 50vw;
         height: fit-content;
     }
+    
     .section__services {
         padding-bottom: 0;
         padding-right: 15%;
         padding-left: 4em;
     }
-    .section__header--about {
+    .section__about--text {
         padding: 4em 4em 4em 20%;
     }
     .section__credentials {
         padding-left: 15%;
         padding-right: 15%;
     }
-    .section__credentials> .section__header {
-        text-align: center;
+    
+    .section__credentials--row {
+        display: flex;
+    }
+    .section__stats {
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
+    .article__contact--raw {
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 }
