@@ -245,5 +245,30 @@ serif;
     .main__header {
         height: 100vh;
     }
-    
+
+    .section__header>.header__text, .header__title {
+            text-align: left;
+        }
+    .section--row {
+        flex-direction: row;
+    }
+    .section__about, .section__services {
+        width: 50vw;
+        height: fit-content;
+    }
+    .section__services {
+        padding-bottom: 0;
+        padding-right: 15%;
+        padding-left: 4em;
+    }
+    .section__header--about {
+        padding: 4em 4em 4em 20%;
+    }
+    .section__credentials {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .section__credentials> .section__header {
+        text-align: center;
+    }
 }
