@@ -144,9 +144,13 @@ serif;
     color: white;
     padding: 30% 25%;
 }
+.portfolio__image {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
 .portfolio__image__img {
     width: 100%;
-    
 }
 .section__stats {
     display: flex;
@@ -176,7 +180,7 @@ serif;
 .section__contact--bgimage {
     background-image: url(/images/profile-bg.jpg);
     background-size: cover;
-    background-position-x: center;
+    background-position: center center;
 }
 .section__contact {
     background-color: rgba(0, 0, 0, 0.842);
@@ -247,19 +251,25 @@ serif;
     }
     .section--row {
         flex-direction: row;
+        justify-content:
     }
     .section__about, .section__services {
         width: 50vw;
-        height: fit-content;
+        height: 80vh;
     }
-    
+    .section__about {
+        height: 100%;
+    }
     .section__services {
         padding-bottom: 0;
         padding-right: 15%;
         padding-left: 4em;
     }
     .section__about--text {
-        padding: 4em 4em 4em 20%;
+        padding: 4em 4em 4em 15%;
+    }
+    .article__text {
+        padding-right: 3em;
     }
     .section__credentials {
         padding-left: 15%;
@@ -269,9 +279,25 @@ serif;
     .section__credentials--row {
         display: flex;
     }
+    .section__portfolio {
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+    .portfolio__image__img {
+        width: 50%;
+    }
     .section__stats {
         flex-direction: row;
         justify-content:space-evenly;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .contact__header {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .section__form {       
+        width: 40em;
     }
     .article__contact--raw {
         flex-direction: row;
