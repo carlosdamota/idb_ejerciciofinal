@@ -8,7 +8,7 @@
 
 - Metodología BEM: una convención de nomenclatura para las clases de CSS que facilita la organización y el mantenimiento del código. BEM significa Block, Element, Modifier, y consiste en asignar nombres a las clases siguiendo este formato: `block__element--modifier`. Por ejemplo, en este fragmento de código se puede ver cómo he usado BEM para definir el bloque `header`, el elemento `logo` y el modificador `small`:
 
-html <header class="header"> <div class="header__logo header__logo--small"> <img src="images/logo.png" alt="Logo"> </div> <nav class="header__nav"> <ul class="header__menu"> <li class="header__item"><a href="#about" class="header__link">Sobre mí</a></li> <li class="header__item"><a href="#skills" class="header__link">Habilidades</a></li> <li class="header__item"><a href="#projects" class="header__link">Proyectos</a></li> <li class="header__item"><a href="#contact" class="header__link">Contacto</a></li> </ul> </nav> </header> ```
+<!-- html <header class="header"> <div class="header__logo header__logo--small"> <img src="images/logo.png" alt="Logo"> </div> <nav class="header__nav"> <ul class="header__menu"> <li class="header__item"><a href="#about" class="header__link">Sobre mí</a></li> <li class="header__item"><a href="#skills" class="header__link">Habilidades</a></li> <li class="header__item"><a href="#projects" class="header__link">Proyectos</a></li> <li class="header__item"><a href="#contact" class="header__link">Contacto</a></li> </ul> </nav> </header> ``` -->
 
  La ventaja de usar BEM es que evita la colisión de nombres, mejora la reutilización de componentes y facilita la lectura y comprensión del código. Si queréis ver todo el código fuente del proyecto, podéis acceder al repositorio de GitHub que he creado para este ejercicio: 
  
@@ -16,7 +16,7 @@ html <header class="header"> <div class="header__logo header__logo--small"> <img
  
  Allí podréis ver los diferentes commits que he realizado a lo largo del desarrollo, explicando los cambios y mejoras que he ido introduciendo. Para que os hagáis una idea del aspecto final del porfolio, os dejo unas capturas de pantalla tanto del diseño en móvil como en desktop:
   ![Captura móvil](images/chrome-capture-2023-3-10.png) 
-  ![Captura desktop](images/chrome-capture-2023-3-10%20(1).png 
+  ![Captura desktop](images/chrome-capture-2023-3-10%20mobil.png)
   
   <h2>Agradeciminetos</h2>
 
